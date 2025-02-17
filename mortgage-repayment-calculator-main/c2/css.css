@@ -22,3 +22,73 @@ width: 49%;
 border-radius: 0px 25px 25px 45px;
 
 }
+
+
+
+@font-face { 
+   font-family: italic ;   
+   src:url(/../chaleng2/mortgage-repayment-calculator-main/assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+
+p {
+  font-family: italic ;
+}
+  
+@font-face { 
+  font-family: bold;
+  src: url(/../chaleng2/mortgage-repayment-calculator-main/assets/fonts/static/PlusJakartaSans-Bold.ttf);
+} 
+
+body{
+ font-family: italic;
+}
+
+.bold {
+  font-family: bold;
+  font-size: 20px;
+  margin-left: 30px
+}
+
+.c {
+  color: rgba(122, 122, 122, 0.664)  ;
+  font-size: 12px;
+  margin-left: 100px;
+}
+
+.d {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 70%;
+  margin-left: 30px;
+  
+}
+
+.e {
+  background-color: rgba(163, 202, 207, 0.842);
+  margin:0% 80% 0% 0% ;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.f {
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 60%;
+  margin-left: 30%;
+}
+ 
+.imagea{
+ background-image: url('../../mortgage-repayment-calculator-main/assets/images/illustration-empty.svg');
+ height: 180px;
+ width: 185px;
+ margin-top: 30%;
+ margin-left: 30%;
+}
+
+
+
+input {
+  border: none;
+  margin-left: 50px;
+  border-width: 50px;
+  background-color: aliceblue;
+}
