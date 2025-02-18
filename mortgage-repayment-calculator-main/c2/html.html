@@ -11,6 +11,11 @@
         <div class="b">
           <div class="imagea"></div>
           <span class="f">Result shown here</span>
+          <p class="h"> 
+            Complete the from and click "calculate repayments" to<br> 
+            see what your monthly repayments would be.
+          </p>
+          <br>
         </div>
 
         <p> <br>
@@ -20,13 +25,48 @@
          <p> 
           <span style="margin-left: 30px;" class="c"> Mortgage Amount</span>
           
-          <div class="d" > 
-            <div class="e">  $ <input type="number" id="amount" size="3" > </div>
-           
-          </div> 
-           
           
-         </p>
+             <div class="d" > 
+              <div class="e"> <br> <span class="g">  $ </span> <input type="number" id="amount" > </div>
+             </div> 
+              <br>
+             
+               
+                <div class="i inline-divs" > 
+                 <div class="e"> <br> <span class="j">  year </span> <input type="number" id="year" > </div>
+                </div> 
+                <div class="l inline-divs" >
+                 <div class="e"> <br> <span class="j"> % </span> <input type="number" id="rate" > </div>
+                </div> 
+              
+           
+              <button onclick="calculateInterest()">CalculateRepayments</button>
+
+              <div class="result" id="result"></div>
+              
+         
+  
+            </p>
+
+         <script>
+          function calculateInterest() {
+             
+              const amount = parseFloat(document.getElementById('amount').value);
+              const years = parseFloat(document.getElementById('year').value);
+              const rate = parseFloat(document.getElementById('rate').value);
+  
+              
+              const interest = amount * (rate / 100) * years;
+              const totalAmount = amount + interest;
+  
+              
+              document.getElementById('result').innerHTML = `
+                  interest: ${interest.toLocaleString()} <br>
+                 total amount ${totalAmount.toLocaleString()} 
+              `;
+          }
+      </script>
+
 
     </div>
     

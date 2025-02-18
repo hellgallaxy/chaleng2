@@ -58,7 +58,7 @@ body{
 .d {
   border: 1px solid black;
   border-radius: 10px;
-  margin-right: 70%;
+  margin-right: 53%;
   margin-left: 30px;
   
 }
@@ -67,6 +67,7 @@ body{
   background-color: rgba(163, 202, 207, 0.842);
   margin:0% 80% 0% 0% ;
   border-radius: 10px 0px 0px 10px;
+  
 }
 
 .f {
@@ -81,14 +82,74 @@ body{
  height: 180px;
  width: 185px;
  margin-top: 30%;
- margin-left: 30%;
+ margin-left: 20%;
 }
 
 
 
-input {
+#amount {
   border: none;
-  margin-left: 50px;
-  border-width: 50px;
+  margin-left: 100%;
+  width: 200px;
   background-color: aliceblue;
 }
+
+.g {
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 40%;
+
+}
+
+.h {
+  color: aliceblue;
+  text-align: center;
+  font-size: 12px;
+
+}
+.i {
+  border: 1px solid black;
+  border-radius: 10px;
+  width:200px;
+  margin-left: 30px;
+  
+} 
+
+.j{
+  color: aliceblue;
+  font-size: medium;
+  margin-left:20%;
+}
+
+#year { 
+  border: none;
+  margin-left: 100%;
+  width: 100px;
+  background-color: aliceblue;
+
+}
+
+.k  {
+    width:30%;  
+    display:inline-block;
+  }
+
+  #rate { 
+    border: none;
+    margin-left: 100%;
+    width: 100px;
+    background-color: aliceblue;
+  
+  }
+  .inline-divs {
+    display: inline-block;
+}
+
+.l {
+  border: 1px solid black;
+  border-radius: 10px;
+  width:200px;
+ 
+  
+} 
+
