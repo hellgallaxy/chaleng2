@@ -11,6 +11,7 @@ div.a{
   margin-left: 14%;
   margin-right: 14%;
   border-radius: 25px;
+  min-width: 900px;
 }
 
 
@@ -58,7 +59,7 @@ body{
 .d {
   border: 1px solid black;
   border-radius: 10px;
-  margin-right: 53%;
+  margin-right: 460px;
   margin-left: 30px;
   
 }
@@ -153,3 +154,18 @@ body{
   
 } 
 
+.m {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 30px;
+  width:400px;
+
+}
+
+.n {
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 20px;
+
+  
+}

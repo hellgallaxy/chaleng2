@@ -30,7 +30,8 @@
               <div class="e"> <br> <span class="g">  $ </span> <input type="number" id="amount" > </div>
              </div> 
               <br>
-             
+                <p style="margin-left: 30px;" class="c" > Mortgage Term<span  style="margin-left: 130px;  class="c"  > InterestRate</span> </p>
+                
                
                 <div class="i inline-divs" > 
                  <div class="e"> <br> <span class="j">  year </span> <input type="number" id="year" > </div>
@@ -38,11 +39,17 @@
                 <div class="l inline-divs" >
                  <div class="e"> <br> <span class="j"> % </span> <input type="number" id="rate" > </div>
                 </div> 
-              
+                <br>
+                <P class="c" style="margin-left: 30px;" > Mortgage Type </P>
+                 
+                <div class="m">
+                  <button id="button1" class="n"></button>
+            
+                  
+                </div>
+        
            
-              <button onclick="calculateInterest()">CalculateRepayments</button>
-
-              <div class="result" id="result"></div>
+             
               
          
   
@@ -66,6 +73,12 @@
               `;
           }
       </script>
+
+<button onclick="calculateInterest()">CalculateRepayments</button>
+
+<div class="result" id="result">
+  <div class="e"></div>
+</div>
 
 
     </div>
